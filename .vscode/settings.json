@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "public": true,
+    ".cache": true,
+    "**/.cache": true,
+    "**/node_modules": true,
+    "**/yarn-error.log": true,
+    "**/.DS_Store": true
+  }
+}
