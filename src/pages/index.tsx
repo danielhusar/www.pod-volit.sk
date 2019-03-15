@@ -27,6 +27,7 @@ const Wrap = styled(Center)`
 `;
 
 const Title = styled.h1`
+  margin-top: 0;
   text-align: center;
   font-size: 60px;
   transition: opacity 0.5s;
