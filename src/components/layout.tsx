@@ -22,11 +22,11 @@ export default ({ children }) => (
     <>
       <Helmet title="Poď voliť">
         <html lang="sk" />
-        <meta name="description" content="Záleží ti na Slovensku?" />
+        <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta property="og:title" content="Záleží ti na Slovensku?" />
         <meta name="google-site-verification" content="8cQKXsfHMuCdSPV42iiMJB-KbCCykX8cdpZOcoW-U8M" />
-        <meta property="og:image" content={withPrefix('share.png')} />
+        <meta property="og:image" content={withPrefix('share1.png')} />
       </Helmet>
       <GlobalStyle />
       {children}
