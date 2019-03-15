@@ -1,10 +1,10 @@
 module.exports = {
   resolve: 'gatsby-plugin-google-analytics',
   options: {
-    trackingId: 'UA-50596448-1',
+    trackingId: 'UA-136330285-1',
     head: false,
     anonymize: true,
     respectDNT: true,
-    cookieDomain: 'danielhusar.sk',
+    cookieDomain: 'www.pod-volit.sk',
   },
 };
