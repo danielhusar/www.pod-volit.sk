@@ -5,7 +5,7 @@ const googleAnalyticsPlugin = require('./plugins/google-analytics');
 module.exports = {
   siteMetadata: {
     title: 'Pod Volit',
-    description: '',
+    description: 'Volby prezidenta Slovenskej Republiky',
     keywords: 'volby',
     siteUrl: 'https://www.pod-volit.sk',
     pathPrefix: '/',
