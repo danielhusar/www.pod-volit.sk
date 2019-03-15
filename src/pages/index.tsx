@@ -52,6 +52,7 @@ const Button = styled.button`
   padding: 20px 100px;
   font-family: 'Anton', sans-serif;
   letter-spacing: 5px;
+  transform: skew(-5deg);
   transition: background 0.2s, opacity 0.5s;
   cursor: pointer;
 
@@ -80,6 +81,10 @@ const Img = styled.img`
   opacity: 0;
   pointer-events: none;
 
+  @media (max-height: 580px) {
+    width: 700px;
+  }
+
   ${({ yes }) =>
     yes &&
     css`
@@ -96,7 +101,7 @@ export default () => {
           <Center>
             <Title yes={yes}>Záleží ti na Slovensku?</Title>
             <Button onClick={() => setYes(true)} yes={yes}>
-              Ano
+              Áno
             </Button>
             <Img src={withPrefix('bg.jpg')} width="1000" yes={yes} />
           </Center>
